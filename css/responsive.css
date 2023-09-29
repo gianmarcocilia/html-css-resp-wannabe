@@ -9,7 +9,7 @@
 
 /* Mobile section */
 
-@media  screen and (max-width: 375px) {
+@media  screen and (max-width: 480px) {
 
     .row {
         flex-direction: column;
@@ -46,5 +46,11 @@
 
     .why-us ul {
         margin-top: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1160px) {
+    .container {
+        width: 100%;
     }
 }
